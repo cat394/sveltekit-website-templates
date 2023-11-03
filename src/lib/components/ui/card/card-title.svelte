@@ -4,17 +4,17 @@
 	import type { HeadingLevel } from "$lib/types";
 
 	type $$Props = HTMLAttributes<HTMLHeadingElement> & {
-		tag?: HeadingLevel;
+		headingLevel?: HeadingLevel;
 	};
 
 	let className: $$Props["class"] = undefined;
-	export let tag: $$Props["tag"] = "h1";
+	export let headingLevel: $$Props["headingLevel"] = "h1";
 	export { className as class };
 </script>
 
 <svelte:element
-	this={tag}
-	class={cn("mt-4", className)}
+	this={headingLevel}
+	class={cn("mt-4 text-center", className)}
 	{...$$restProps}
 >
 	<slot />

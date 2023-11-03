@@ -8,10 +8,11 @@ const divideVariants = tv({
 			default: "w-[90%] mx-auto grid place-items-center"
 		},
 		size: {
+			ss: "h-[1.5rem]",
 			sm: "h-[3rem]",
-			lg: "h-[5rem]",
-			xl: "h-[7rem]",
-			xxl: "h-[10rem]"
+			md: "h-[5rem]",
+			lg: "h-[7rem]",
+			xl: "h-[10rem]"
 		}
 	},
 	defaultVariants: {
@@ -26,6 +27,7 @@ type Size = VariantProps<typeof divideVariants>["size"];
 type Props = {
 	variant?: Variant;
 	size?: Size;
+	class?: string;
 };
 
 export {

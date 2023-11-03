@@ -11,14 +11,14 @@
 </script>
 <Layout.Container>
   <Title>About</Title>
-  <Divider size="md" />
+  <Divider />
   <Layout.SideBySide>
     <span slot="left">
       <svelte:component this={data.intro} />
     </span>
   </Layout.SideBySide>
   <Divider size="md" />
-  <Layout.Grid class="gap-8">
+  <Layout.Grid class="gap-10">
     {#each stuffList as stuff}
       <Card.Root>
         <Card.Header>
@@ -29,7 +29,7 @@
       </Card.Root>
     {/each}
   </Layout.Grid>
-  <Divider size="2xl" />
+  <Divider size="xl" />
   <Title headingLevel="h2">Layout 3 in 1</Title>
   <Divider />
   <div class="w-[90%] mx-auto">

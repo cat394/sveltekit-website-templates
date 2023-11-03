@@ -10,7 +10,7 @@
 </script>
 
 <div class={cn(className)} {...$$restProps}>
-	<Position>
+	<Position inlinePosition="center">
 		<div class="rounded-full overflow-hidden">
 			<slot />
 		</div>

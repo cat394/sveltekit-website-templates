@@ -1,0 +1,2 @@
+<div class="max-w-[500px]"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.1313751125786!2d139.7704531255262!3d35.69838457258183!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188ea7e2f93329%3A0x158f36257ff597b1!2z56eL6JGJ5Y6f6aeF!5e0!3m2!1sja!2sjp!4v1698897656799!5m2!1sja!2sjp" style="border:0; aspect-ratio: 500 / 500; width: 100%; height: 100%;" title="秋葉原" allowfullscreen={null} loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>

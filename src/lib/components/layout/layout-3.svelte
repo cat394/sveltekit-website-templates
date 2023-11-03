@@ -14,7 +14,7 @@
         <slot name="subTitle" />
       </p>
     </div>
-    <div>
+    <div class="place-self-center">
       <slot name="image" />
     </div>
   </div>

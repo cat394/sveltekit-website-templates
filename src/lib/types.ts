@@ -20,4 +20,17 @@ type Stuff = {
 	description: string;
 };
 
-export type { HeadingLevel, Info, ImageData, Stuff };
+const dayNames = {
+	monday: 'Monday',
+	tuesday: 'Tuesday',
+	wednesday: 'Wednesday',
+	thursday: 'Thursday',
+	friday: 'Friday',
+	saturday: 'Saturday',
+	sunday: 'Sunday'
+} as const;
+
+type DayNamesValue = (typeof dayNames)[keyof typeof dayNames];
+
+export { dayNames }
+export type { HeadingLevel, Info, ImageData, Stuff, DayNamesValue };

@@ -6,7 +6,7 @@
   export let leftClass = "";
 </script>
 
-<div class={cn("grid md:grid-cols-[1fr_1fr] justify-center row-gap-4 column-gap-7 mb-10", containerClass)}>
+<div class={cn("grid md:grid-cols-[1fr_1fr] justify-center gap-7 mb-10", containerClass)}>
   <div class={leftClass}>
     <slot name="left" />
   </div>

@@ -4,10 +4,9 @@
 
   type $$Props = Props;
 
-  let className = "";
+  export let className: $$Props["class"] = undefined;
 	export let variant: $$Props["variant"] = "default";
 	export let size: $$Props["size"] = "sm";
-
   export let dashed = false;
   export { className as class };
 </script>
